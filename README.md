@@ -66,10 +66,4 @@ Force push to removed.
 
 If use force push, local repo/branch need to reset.
 
-> git reset –hard origin/<branch name>
-
-this is test
-
-this is test again
-
-this is test again agian
+> git reset --hard origin/<branch name>
