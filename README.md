@@ -66,4 +66,4 @@ Force push to removed.
 
 If use force push, local repo/branch need to reset.
 
-> git reset –hard origin/<branch name>
+> git reset --hard origin/<branch name>
