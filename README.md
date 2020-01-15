@@ -1,1 +1,1 @@
-# git_squash
+# Steps for git rebase and squash
