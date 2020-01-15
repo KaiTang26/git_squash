@@ -20,6 +20,26 @@ Integrate changes from one branch into another.
 
 ## 3.1. Git squash before git rebase:
 
+Go to log to count how many commits want to squash to one
+
+> git log
+
+!["Page 1"](https://github.com/KaiTang26/git_squash/blob/master/img/log.png)
+
+In this case, we can squash 3 commits into one ( change [NUMBER OF COMMITS] to 3)
+
+> git rebase -i HEAD~[NUMBER OF COMMITS]
+
+or
+
+> git rebase -i [SHA]
+
+Then this will open up your editor with the following:
+
+!["Page 2"](https://github.com/KaiTang26/git_squash/blob/master/img/vim.png)
+
+Need to pick one commit. Other commits will squash into picked one.
+
 ## 4. Resolve conflict:
 
 During rebase, conflict may happen. After resolving conflict, updated change should add into branch.
