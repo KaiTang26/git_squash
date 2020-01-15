@@ -24,7 +24,7 @@ Go to log to count how many commits want to squash to one
 
 > git log
 
-!["Page 1"](https://github.com/KaiTang26/git_squash/blob/master/img/log.png=100x200)
+!["Page 1"](https://github.com/KaiTang26/git_squash/blob/master/img/log.png =100x200)
 
 In this case, we can squash 3 commits into one ( change [NUMBER OF COMMITS] to 3)
 
